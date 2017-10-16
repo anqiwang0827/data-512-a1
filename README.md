@@ -20,7 +20,6 @@ The project has the following structure:
      * |- Data 
         * |- Source Data
         * |- Final Data
-     * .gitignore  
 
 In the following sections we will examine these elements one by one. First,let's consider the core of the project which is the hcds-a1-data-curation.ipynb in hcds-a1-data-curation.ipynb/ProgrammingStep folder 
 
@@ -47,6 +46,7 @@ The module will then output:
 1 .png image of the visulization will be saved after executing hcds-a1-data-curation.ipynb 
 
 ## Data
+Data was gathered from the Wikimedia REST API, Wikimedia Foundation, 2017. CC-BY-SA 3.0
 ### Source Data
 Collect data from two different API endpoints, the Pagecounts API and the Pageviews API.
 
