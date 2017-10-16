@@ -55,7 +55,8 @@ API endpoints:  
 https://wikimedia.org/api/rest_v1/#!/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end    
 https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end   
 Wikimedia Foundation terms of use:    
-https://wikimediafoundation.org/wiki/Terms_of_Use/en
+https://wikimediafoundation.org/wiki/Terms_of_Use/en  
+
 ### Source Data
 Collect data from two different API endpoints, the Pagecounts API and the Pageviews API.
 
@@ -77,8 +78,8 @@ For all data, separate the value of timestamp into four-digit year (YYYY) and tw
 Combine all data into a single CSV file with the following headers:
 
 Column	 Value
-year	YYYY
-month	MM
+year	YYYY	2008-2017
+month	MM	1-12
 pagecount_all_views	num_views
 pagecount_desktop_views	num_views
 pagecount_mobile_views	num_views
@@ -88,4 +89,6 @@ pageview_mobile_views	num_views
 
 After executing Jupyter Notebook Step 1, a final data file will be saved as en-wikipedia_traffic_200801-201709.csv.
 
-## Special Consideration
+## Important Notes
+1) We're interested in organic (user) traffic, as opposed to traffic by web crawlers or spiders. The Pageview API (but not the Pagecount API) will use filter by agent=user.
+2) There is a 13 month period in which both APIs provide traffic data
