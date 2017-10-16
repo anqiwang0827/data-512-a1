@@ -78,14 +78,14 @@ For all data, separate the value of timestamp into four-digit year (YYYY) and tw
 Combine all data into a single CSV file with the following headers:
 
 Column	 Value
-year	YYYY	2008-2017
-month	MM	1-12
-pagecount_all_views	num_views
-pagecount_desktop_views	num_views
-pagecount_mobile_views	num_views
-pageview_all_views	num_views
-pageview_desktop_views	num_views
-pageview_mobile_views	num_views
+year	   YYYY	2008-2017   
+month	   MM	  1-12   
+pagecount_all_views	num_views   
+pagecount_desktop_views	num_views   
+pagecount_mobile_views	num_views   
+pageview_all_views	num_views  
+pageview_desktop_views	num_views   
+pageview_mobile_views	num_views   
 
 After executing Jupyter Notebook Step 1, a final data file will be saved as en-wikipedia_traffic_200801-201709.csv.
 
