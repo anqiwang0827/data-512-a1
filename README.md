@@ -78,7 +78,7 @@ For all data, separate the value of timestamp into four-digit year (YYYY) and tw
 Combine all data into a single CSV file with the following headers:
 
 Column	 Value   
-year	   YYYY	2008-2017   
+year	   YYYY	2008-2017      
 month	   MM	  1-12   
 pagecount_all_views	num_views   
 pagecount_desktop_views	num_views   
