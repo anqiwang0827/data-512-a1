@@ -46,7 +46,16 @@ The module will then output:
 1 .png image of the visulization will be saved after executing hcds-a1-data-curation.ipynb 
 
 ## Data
-Data was gathered from the Wikimedia REST API, Wikimedia Foundation, 2017. CC-BY-SA 3.0
+license of the source data:         
+Data was gathered from the Wikimedia REST API, Wikimedia Foundation, 2017. CC-BY-SA 3.0   
+Relevant API documentation:  
+https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
+https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews    
+API endpoints:  
+https://wikimedia.org/api/rest_v1/#!/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end    
+https://wikimedia.org/api/rest_v1/#!/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end   
+Wikimedia Foundation terms of use:    
+https://wikimediafoundation.org/wiki/Terms_of_Use/en
 ### Source Data
 Collect data from two different API endpoints, the Pagecounts API and the Pageviews API.
 
@@ -79,4 +88,4 @@ pageview_mobile_views	num_views
 
 After executing Jupyter Notebook Step 1, a final data file will be saved as en-wikipedia_traffic_200801-201709.csv.
 
-
+## Special Consideration
