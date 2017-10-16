@@ -64,11 +64,11 @@ The legacy Pagecounts API provides access to desktop and mobile traffic data fro
 The Pageviews API provides access to desktop, mobile web, and mobile app traffic data from July 2015 through September 2017.
 
 After executing Jupyter Notebook Step 1, 5 JSON source data files will be saved with following naming covention:
-pageviews_mobile-web_201507-201709.json
-pageviews_mobile-app_201507-201709.json
-pageviews_desktop_201507-201709.json
-pagecounts_mobile-site_200801-201607
-pagecounts_desktop-site_200801-201607
+pageviews_mobile-web_201507-201709.json                
+pageviews_mobile-app_201507-201709.json  
+pageviews_desktop_201507-201709.json   
+pagecounts_mobile-site_200801-201607   
+pagecounts_desktop-site_200801-201607   
 
 ### Final Data
 After saving raw data as JSON files, several processing steps needed on the data.
