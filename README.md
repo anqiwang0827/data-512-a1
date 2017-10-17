@@ -48,7 +48,7 @@ The module will then output:
 3) 1 .png image of the visualization.
 
 ### Visualization
-1 .png image of the visulization will be saved after executing hcds-a1-data-curation.ipynb 
+1 .png image of the visulization will be saved after executing hcds-a1-data-curation.ipynb. The visualizationwill track three traffic metrics: mobile traffic, desktop traffic, and all traffic (mobile + desktop).  
 
 ## Data
 License of the source data:         
