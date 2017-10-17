@@ -11,7 +11,7 @@ To reproduce the result of the project, you will need to clone this repository i
 
 First, let me explain all the different moving parts that make up the python project, and all the elements which allow us to effectively share it with others, test it, document it, and track its evolution.
 
-We recommend using conda to install matplotlib and other such libraries to ensure smooth running of the module.
+I recommend using conda to install matplotlib and other such libraries to ensure smooth running of the module.
 
 ## Organization of the  project
 
@@ -26,11 +26,11 @@ The project has the following structure:
         * |- Source Data
         * |- Final Data
 
-In the following sections we will examine these elements one by one. First,let's consider the core of the project which is the hcds-a1-data-curation.ipynb in hcds-a1-data-curation.ipynb/ProgrammingStep folder. 
+In the following sections I will examine these elements one by one. First,let's consider the core of the project which is the hcds-a1-data-curation.ipynb in hcds-512-a1/ProgrammingStep folder. 
 
 ## ProgrammingStep
 ### hcds-a1-data-curation.ipynb 
-In this jupyter notebook, detailed steps are documented and presented for you to combine data Wikipedia traffic from two different Wikimedia REST API endpoints (Pageviews & Pagecounts) into a single dataset, perform some simple data processing steps on the data, and then analyze that data.
+In this jupyter notebook, detailed steps are documented and presented for you to combine data Wikipedia traffic from two different Wikimedia REST API endpoints (Pageviews & Pagecounts) into a single dataset, perform some simple data processing steps on the data, and then analyze that data (create a visulization).  
 
 There are three steps to compelete the project.  
 Step 1: Data acquisition   
